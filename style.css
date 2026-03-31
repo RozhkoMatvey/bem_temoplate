@@ -52,9 +52,8 @@ body{
 }
 
 .text_title_small{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-weight: 600;
-    /* font-style: SemiBold; */
     font-size: 22px;
     line-height: 100%;
     letter-spacing: 0%;
@@ -197,7 +196,7 @@ body{
 }
 
 .timeprob{
-    gap: 18px;    
+    gap: 14px;    
 }
 
 .practise__irl{
@@ -226,7 +225,7 @@ body{
 }
 
 .practise__problems{
-
+    margin-bottom: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,3 +245,67 @@ body{
 
 
 }
+
+
+
+.difficulties{
+    display: block;
+
+}
+
+.difficulties__title{
+
+
+    font-family: 'Lora';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+}
+
+.difficulties__firstim{
+    float: right;
+    margin-top: 10%;
+    margin-right: 18%;
+}
+
+
+
+.difficulties__secondim{
+    float: left;
+    margin-top: 5%;
+    margin-left: 15%;
+
+}
+
+.difficulties__thirdim{
+    float: right;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+.difficulties__text{
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+    z-index: 6;
+}
+
+#difficulties__text__rightside{
+    margin-left: 40%;
+}
+
+#difficulties__text__marginbottom{
+    margin-bottom: 2em;
+}
+
+
