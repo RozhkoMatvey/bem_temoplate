@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --cl-white: #fff;
+    --font: 18px
+}
+
+body{
+    background: linear-gradient(180deg, #F2F1FD 0%, #D9D9E3 15.38%, #C6C5D4 29.29%, #F9F0ED 35.15%);
+}
+
+.text{
+    font-family: 'Nunito';
+    font-size: var(--font);
+    margin: 10px auto 20px;
+    display: block;
+}
+
+
+.text_title{
+    font-family: 'Montserrat';
+    font-size: 24px;
+
+    width: 343px;
+    height: 116px;
+
+    font-style: bold;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #161233;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.text_bold{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.text_title_small{
+    font-family: Montserrat;
+    font-weight: 600;
+    /* font-style: SemiBold; */
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+
+
+#sandtime{
+    margin-left: 40%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-right: 50%;
+
+}
+
+
+
+.start__forpsycho{
+    font-weight: 500;
+    font-family: 'Lora';
+    font-size: 16px;
+    background: rgba(243, 224, 218, 1);
+    color: rgba(103, 44, 5, 1) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    justify-content: center;
+
+    width: 343px;
+    height: 36px;
+
+    background: #F3E0DA;
+    border-radius: 12px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.img{
+    margin: 10px auto 20px;
+    display: block;
+}
+
+.start__wishes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px;
+    
+
+    width: 343px;
+    height: 532px;
+
+    background: var(--cl-white);
+    border-radius: 32px;
+
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.wishes__title{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: -10px;
+    margin-left: -45%;
+}
+
+
+.wishes__minus{
+    margin-bottom: -1em;
+    list-style-image: url(media/solar_minus-circle-line-duotone.png);
+
+}
+
+.wishes__plus{
+    margin-bottom: -1em;
+    list-style-image: url(media/solar_check-circle-line-duotone.png); 
+
+}   
+
+
+.img_float{
+    float: right;
+
+}
+
+#text__right_float{
+    margin-left: 50%;
+}
+
+
+.amateur__res{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px;
+    margin-bottom: 30px;
+
+
+    width: 343px;
+    height: 558px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+
+
+.res__star{
+    margin-left: -15%;
+    margin-bottom: -1em;
+    list-style-image: url(media/sstar.png); 
+}
+
+#amateur__res__margin1em{
+    margin-bottom: -1em;
+}
+
+.timeprob{
+    gap: 18px;    
+}
+
+.practise__irl{
+    font-size: 17px;
+    font-family: 'Lora';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(243, 224, 218, 1);
+    color: rgba(103, 44, 5, 1) ;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+
+    width: 343px;
+    height: 36px;
+
+    background: #F3E0DA;
+    border-radius: 12px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.practise__problems{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px;
+
+    width: 343px;
+    height: 462px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 2;
+
+
+}
