@@ -13,6 +13,7 @@ body{
 }
 
 .text{
+    font-weight: 400;
     font-family: 'Nunito';
     font-size: var(--font);
     margin: 10px auto 20px;
@@ -308,4 +309,248 @@ body{
     margin-bottom: 2em;
 }
 
+.solve__list{
+    list-style-image: url(media/blueminum.png); 
 
+}
+
+
+.anxeity__title{
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 10px;
+
+    width: 343px;
+    height: 135px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+#anxiety__texttitle__center{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+
+#anxiety__text__center{
+    text-align: center;
+}
+
+#anxiety__semititle{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+
+
+.waste__title{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 10px;
+
+    width: 343px;
+    height: 600px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+#waste__title__center{
+    text-align: center;
+    margin: 5%;
+}
+
+#waste__text__center{
+    text-align: center;
+}
+
+
+.waste__img{   
+    margin: 10px auto 20px;
+    display: block;
+    align-items: center;
+    margin-bottom: 1em;
+
+}
+
+#waste__text__600w{
+    font-weight: 600;
+}
+
+.aboutme__img{
+    margin-top: -10%;
+    float: left;
+}
+
+.aboutme_name{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 50%;
+    margin-top: 18%;
+}
+#aboutme__text__rightside{
+    margin-top: -1em;
+    margin-left: 50%;
+}
+
+.aboutme__vector{
+    margin-top: 10%;
+}
+
+.aboutme__maintext{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.aboutme__ul__leftside{
+    margin-left: -1em;
+}
+
+.aboutme__list{
+    list-style-image: url(media/orangeminum.png); 
+
+}
+
+
+.crowdfinding{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 16px;
+    isolation: isolate;
+
+    width: 343px;
+    height: 305px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+#crowdfinding__text__w600{
+    margin-top: 1em;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.crowdfinding__ul{
+    margin-left: -1em;
+    margin-top: -1em;
+
+}
+
+.crowdfindng__li{
+
+    list-style-image: url(media/orangeminum.png); 
+}
+
+.support__title{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.support__semititle{
+
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.support__ul{
+    margin-left: -1em;
+}
+
+.support__list__star{
+    
+    list-style-image: url(media/sstar.png); 
+}
+
+.support__list__minum{
+    list-style-image: url(media/orangeminum.png); 
+}
+
+.support__step{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 16px;
+    isolation: isolate;
+
+    width: 343px;
+    height: 320px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+
+.support__list__plus{
+    list-style-image: url(media/prangeplus.png); 
+
+}
+.support__ul__margintop{
+    margin-left: -2em;
+    margin-top: -1em;
+    margin-bottom: -1em;
+}
