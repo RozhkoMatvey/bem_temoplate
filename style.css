@@ -554,3 +554,407 @@ body{
     margin-top: -1em;
     margin-bottom: -1em;
 }
+
+
+.nextlvl__title{
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+
+.nextlvl__work{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5%;
+    gap: 3px;
+
+    width: 343px;
+    height: 300px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 2;
+
+}
+
+
+.nextlvl__img__leftside{
+    float: left;
+}
+
+
+#nextlvl__text__leftside{
+    margin-left: 15%;
+    margin-top: -2em;
+}
+
+.nextlvl__li__orangminum{
+    margin-left: -1em;
+    list-style-image: url(media/orangeminum.png); 
+}
+
+.nextlvl__li__greenplus{
+    margin-left: -1em;
+    list-style-image: url(media/solar_check-circle-line-duotone.png); 
+}
+
+.nextlvl__li__orangeplus{
+    margin-left: -1em;
+    list-style-image: url(media/prangeplus.png);    
+}
+
+.howto__titleblock{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    isolation: isolate;
+
+    width: 343px;
+    height: 635px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    flex: none;
+    order: 10;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 10;
+
+}
+
+#howto__text__grayf{
+    color: #c4c4c4;
+    margin-bottom: -1em;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+
+#howto__texttitle__margin{
+    align-self: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#howto__text__grays{
+    color: #c4c4c4;
+    margin-top: -1em;
+    margin-left: 70%;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+#howto__text__grayt{
+    color: #c4c4c4;
+    margin-top: -2px;
+    margin-left: 3%;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+#howto__text__center{
+    margin-top: 2%;
+    text-align: center;
+    align-self: center;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+
+#howto__img__center{
+    position: absolute;
+    bottom: 0;
+    margin-left: 5%;
+}
+
+.howto__confidence{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 10%;
+
+    width: 343px;
+    height: 315px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+#confidence__text__rightside{
+    margin-left: 10%;
+}
+
+
+.confidence__img{
+    float: left;
+}
+
+#confidence__text__rightside{
+    margin-left: 10%;
+    margin-top: -2em;
+
+}
+
+.practise__ul{
+    margin-left: -1em;    
+}
+
+.practise__li__star{
+    list-style-image: url(media/sstar.png); 
+
+}
+
+#practise__img__center{
+    margin: 10px auto 20px;
+    display: block;
+}
+
+.practise_therapy{
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5%;
+
+    width: 343px;
+    height: 945px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+    z-index: 0;
+
+}
+
+#therapy__titletext{
+    font-size: 18px;
+    float: left;
+}
+
+
+#therapy__text{
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+.practise__li__orangeplus{
+    list-style-image: url(media/prangeplus.png);    
+
+}
+
+.plactise__li__star{
+    list-style-image: url(media/sstar.png); 
+    
+}
+
+.analysis__titleblock{
+
+    flex-direction: column;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    width: 343px;
+    height: 400px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+}
+
+.analysis__li__orangeplus{
+    margin-left: -1em;
+    list-style-image: url(media/prangeplus.png);    
+
+}
+
+#analysis__text__w600{
+    font-weight: 600;
+    font-size: 18px;
+    
+
+}
+
+.analysis__text__session{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+
+
+
+
+    padding: 8px 16px;
+
+    width: 247px;
+    height: 41px;
+
+    background: #F3E0DA;
+    border-radius: 12px;
+    color: rgba(103, 44, 5, 1) ;
+
+}
+
+.analysis__diagnostic{
+
+
+    margin-top: 1.5em;
+
+
+    flex-direction: column;
+    padding: 5%;
+
+    width: 343px;
+    height: 460px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12.3px rgba(57, 48, 202, 0.2);
+    border-radius: 32px;
+
+}
+
+
+.diagnostic__li__orangeplus{
+    margin-left: -1em;
+    list-style-image: url(media/prangeplus.png);    
+}
+
+
+#analysis__text__center{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+
+.analysis__session{
+    margin-right: -20px;
+    padding: 5%;
+    width: 343px;
+    height: 109px;
+    display: flex;
+    gap: 18px;
+}
+
+.analysis__session__block{
+    
+    margin: -5px;
+    padding: 16px;
+    display: inline-block;
+    width: 109px;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(57, 48, 202, 0.2);
+    border-radius: 12px;
+}
+
+.analysis__sessiontxt{
+    text-align: center;
+}
+
+.analysis__sessionimg{
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+.analysis__li__orangeplus{
+        list-style-image: url(media/prangeplus.png);    
+}
+
+
+.analysis__want{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 8px;
+    gap: 10px;
+
+    width: 343px;
+    height: 51px;
+
+    background: linear-gradient(90deg, #6C63FF 0%, #E77D3B 100%);
+    border-radius: 16px;
+
+}
+
+.analysis__vector{
+    margin-top: 10%;
+    float: right;
+}
+
+
+.want__text{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--cl-white);
+
+}
+
+.analysis__prise{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
