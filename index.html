@@ -15,11 +15,23 @@
     <body>
         <div class="container">
             <div class="start">
-                <img src="media\Sand.png" alt="img" class="start__img" id="sandtime">
+
+            <div class="titlebar">
+                <div class="titlebar__center">
+                    <div  class="sand__img">
+                        <img src="media\Sand.png" alt="img" class="start__img" id="sandtime">
+                    </div>
                 <p class="text">Максимально полезная статья за 7 минут</p>
-                <p class="start__forpsycho">Для психологов</p>
+                </div>
+                <div class="forpsycho">
+                    <p class="start__forpsycho">Для психологов</p>
+                </div>
+            </div>
+                
                 <p class="text_title">Как начать принимать клиентов с твердой уверенностью в своем профессионализме.</p>
-                <img src="media\undraw_multitasking_i2bv 1.png" alt="img" class="img">
+                <div class="img">
+                    <img src="media\undraw_multitasking_i2bv 1.png" alt="img">
+                </div>
                 <div class="start__wishes">
                     <p class="wishes__title">Если вы постоянно:
                         <ul>
@@ -346,20 +358,29 @@
                     <p class="text">Если мы понимаем, что дальнейшая работа будет полезна — обсуждаем формат <b>наставничества.</b> Если нет — вы всё равно уходите с пониманием своей <b>точки роста</b> и <b>направлением</b> движения.</p>
                     <img src="media\lastvector.png" alt="img" class="analysis__vector">
                     <p class="text_title_small">Записывайтесь на диагностическую сессию</p>
-                    <div class="analysis__want">
-                        <p class="want__text">Хочу на разбор</p>
-                    </div>
+                    <form>
+                            <button class="analysis__want" type="button" onclick="sendwhatsapp()">
+                                <p class="want__text" type="text">Хочу на разбор</p>
+                            </button>
+                    </form>
                     <p class="analysis__prise">Стоимость: 10 000 тг</p>
 
                 </div>
 
 
-
-
-
-
-
-
         </div>
+        <script>
+            function sendwhatsapp(){
+            var phonenumber = "+6285101556689";
+
+
+            var url = "https://wa.me/" + phonenumber + "?text="
+            +"Хочу на разбор";
+
+            window.open(url, '_blank').focus();
+            }
+        </script>
+
+
     </body>
 </html>
